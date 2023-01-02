@@ -6,11 +6,18 @@ This is the minimal starting point for a basic React-frontend with Node/Express-
 
 ## features
 
-- **frontend:** Vite/React with Sass, TypeScript and ES6 modules
-- **backend:** Node/Express with TypeScript and ES6 modules
-- **database:** [Lowdb](https://www.npmjs.com/package/lowdb) (one JSON file in backend)
-- **authentication:** simple PIN which is an environment variable in the backend, i.e. all POST/PATCH/DELETE backend routes are protected
-- **toastify notifications**: easy-to-implement app messages that pop out with animation in e.g. upper-right-hand corner, see [react-toastify](https://www.npmjs.com/package/react-toastify)
+- **frontend:** 
+  - Vite/React 
+  - Sass
+  - TypeScript
+  - ES6 modules
+  - React Router
+  - useContext
+- **backend:** 
+  - Node/Express 
+  - TypeScript 
+  - ES6 modules
+  - simple MVC Structure (`server.ts`/`model.ts`)
 
 ## install
 
