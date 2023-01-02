@@ -15,12 +15,12 @@ This is the minimal starting point for a basic React-frontend with Node/Express-
 ## install
 
 - go to your projects directory
-- create a directory called `getajob`
+- create a directory called `site001`
 
 ## install backend
 
 - go to your projects directory
-- `cd getajob`
+- `cd site001`
 - `git clone git@github.com:edwardtanguay/getajob007-backend.git`
 - `npm i`
 - create **.env** file
