@@ -21,29 +21,16 @@ This is the minimal starting point for a basic React-frontend with Node/Express-
 
 - go to your projects directory
 - `cd site001`
-- `git clone git@github.com:edwardtanguay/getajob007-backend.git`
+- `git clone git@github.com:edwardtanguay/react-node-simple-api-backend.git site001-backend`
 - `npm i`
-- create **.env** file
-
-```text
-PORT = 3001
-PIN = 1234
-```
-
 - `npm run dev`
 
 ## install frontend
 
 - go to your projects directory
-- `cd getajob`
-- `git clone git@github.com:edwardtanguay/getajob007-frontend.git`
+- `cd site001`
+- `git clone git@github.com:edwardtanguay/react-node-simple-api-frontend.git site001-frontend`
 - `npm i`
-- create **.env** file
-
-```text
-VITE_BACKEND_URL = http://localhost:3001
-```
-
 - `npm run dev`
 
 ## more starters, templates and frameworks
