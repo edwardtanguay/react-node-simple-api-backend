@@ -1,0 +1,10 @@
+@url = http://localhost:3610
+
+### BASE
+{{url}}
+
+### TEST
+{{url}}/test
+
+### FLASHCARDS 
+{{url}}/flashcards
