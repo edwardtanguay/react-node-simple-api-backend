@@ -6,40 +6,45 @@ This is the minimal starting point for a basic React-frontend with Node/Express-
 
 ## features
 
-- Node/Express API
-- TypeScript
-  - two interfaces: `IRawBooks`, `IBooks`
-- ES6 modules
-- three simple routes:
-  - `/` - API instructions
-  - `/books` - all books
-  - `/books/3` - book with id 3
-- simple MVC structure
-  - `server.ts` - responsible for req/res routes
-  - `model.ts` - responsible for data functions
-- simple example of custom middleware (logger)
-- `config.ts` has centralized data 
-- `test.rest` used for manual testing (need [REST Client VSCode extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client))
-- cors implemented
+- **frontend:** Vite/React with Sass, TypeScript and ES6 modules
+- **backend:** Node/Express with TypeScript and ES6 modules
+- **database:** [Lowdb](https://www.npmjs.com/package/lowdb) (one JSON file in backend)
+- **authentication:** simple PIN which is an environment variable in the backend, i.e. all POST/PATCH/DELETE backend routes are protected
+- **toastify notifications**: easy-to-implement app messages that pop out with animation in e.g. upper-right-hand corner, see [react-toastify](https://www.npmjs.com/package/react-toastify)
 
 ## install
 
 - go to your projects directory
-  - e.g. `cd ~/projects`
-- in your projects directory, create your new site e.g. **backend001** by cloning this project 
-  - `git clone git@github.com:edwardtanguay/backend-simple-readonly-json-api.git backend001`
-- open your newly created site in VSCode
-  - `code backend001`
-- inside VSCode, open the VSCode terminal
-  - **CTRL-`**
-- delete the connection to this repository by deleting the Git repository
-  - `rm -rf .git`
-- create a new local Git repository
-  - `git init -b main`
-- install node_modules
-  - `npm i`
-- start your site and click given link to view website
-  - `npm run dev`
+- create a directory called `getajob`
+
+## install backend
+
+- go to your projects directory
+- `cd getajob`
+- `git clone git@github.com:edwardtanguay/getajob007-backend.git`
+- `npm i`
+- create **.env** file
+
+```text
+PORT = 3001
+PIN = 1234
+```
+
+- `npm run dev`
+
+## install frontend
+
+- go to your projects directory
+- `cd getajob`
+- `git clone git@github.com:edwardtanguay/getajob007-frontend.git`
+- `npm i`
+- create **.env** file
+
+```text
+VITE_BACKEND_URL = http://localhost:3001
+```
+
+- `npm run dev`
 
 ## more starters, templates and frameworks
 
